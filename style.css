@@ -1,0 +1,71 @@
+.header{
+    background-color: rgb(50, 50, 80);
+    /* border: 20px solid rgb(50, 50, 80); */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 30px;
+    
+
+}
+
+.name{
+    color: white;
+    font-size: 25px;
+}
+
+.Job-name{
+    color: rgb(152, 152, 152);
+
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.phone{
+    color: rgb(152, 152, 152);
+    padding-right: 30px;
+}
+
+.email{
+    color: rgb(152, 152, 152);
+    padding-right: 30px;
+}
+
+
+.location{
+    color: rgb(152, 152, 152);
+    padding-right: 30px;
+
+}
+
+.employment-title{
+    color: #777;
+    
+}
+
+.Date{
+    font-size: xx-small;
+}
+.Title-Date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sub-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.content-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
